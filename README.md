@@ -25,8 +25,6 @@ The game involves two AI-driven clients, each tasked with exploring the map, fin
 - **Limited Time**: Each game is capped at 320 turns, and each AI has a 5-second time limit per action.
 - **CLI Visualization**: The game is visualized through a command-line interface (CLI) which shows the map, players’ positions, treasures, castles, and more.
 
-For further details on the game mechanics, refer to the [Spielidee](#) section.
-
 ---
 
 ## Game Architecture
@@ -59,12 +57,13 @@ The following technology stack is used in this project:
 ---
 
 ## Running the Game
-**Client**
+### Client
 Generate a new game ID via https://swe1.wst.univie.ac.at/games
 Run the game with start parameters: java -jar <DateiNameClient.jar> <Modus> <BasisUrlServer> <SpielID>
   Example: java -jar client.jar TR http://swe1.wst.univie.ac.at:18235 6aDj2
-Alternative: Use Test-Server https://swe1.wst.univie.ac.at/ to evaluate the Client AI by uploading Executables/ExampleClient.jar file.  
 
-**Server**
+**Alternative:** Use Test-Server https://swe1.wst.univie.ac.at/ to evaluate the Client AI by uploading Executables/ExampleClient.jar file.  
+
+### Server
 First, start your server and then run the test client using:
 java -jar Server_Evaluation_Client.jar
