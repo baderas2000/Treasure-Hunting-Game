@@ -1,6 +1,3 @@
-Below is a **README** file based on the information from the uploaded files, designed for a project related to a multiplayer, client-server game involving AI-driven gameplay.
-
----
 
 # README
 
